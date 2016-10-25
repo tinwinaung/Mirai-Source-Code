@@ -1,7 +1,7 @@
 # Mirai BotNet
-Leaked Linux.Mirai Source Code for Research/IoT Development Purposes
+Mirai DDoS Attack Source Code for Research Development Purposes
 
-Uploaded for research purposes and so we can develop IoT and such.
+Uploaded for research purposes and so we can develop secure env and such.
 
 See "ForumPost.txt" or [ForumPost.md](ForumPost.md) for the post in which it
 leaks, if you want to know how it is all set up and the likes.
@@ -26,6 +26,20 @@ This is real automation of hacking and attack.
 Continue study to secure whatever.
 
 ## Architecture
+
+#put this to ~/.bashrc after tools chain and golang is installed.
+export PATH=$PATH:/etc/xcompile/armv4l/bin
+export PATH=$PATH:/etc/xcompile/armv6l/bin
+export PATH=$PATH:/etc/xcompile/i586/bin
+export PATH=$PATH:/etc/xcompile/m68k/bin
+export PATH=$PATH:/etc/xcompile/mips/bin
+export PATH=$PATH:/etc/xcompile/mipsel/bin
+export PATH=$PATH:/etc/xcompile/powerpc/bin
+export PATH=$PATH:/etc/xcompile/powerpc-440fp/bin
+export PATH=$PATH:/etc/xcompile/sh4/bin
+export PATH=$PATH:/etc/xcompile/sparc/bin
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/Documents/go
 
 ![alt tag](https://github.com/tinwinaung/Mirai-Source-Code/raw/master/architecture.png)
 
