@@ -26,8 +26,11 @@ This is real automation of hacking and attack.
 Continue study to secure whatever.
 
 ## Architecture
-
-#put this to ~/.bashrc after tools chain and golang is installed.
+//Install Go
+sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
+sudo apt-get update
+sudo apt-get install golang
+//put this to ~/.bashrc after tools chain and golang is installed.
 export PATH=$PATH:/etc/xcompile/armv4l/bin
 export PATH=$PATH:/etc/xcompile/armv6l/bin
 export PATH=$PATH:/etc/xcompile/i586/bin
