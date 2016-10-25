@@ -17,6 +17,14 @@ leaks, if you want to know how it is all set up and the likes.
 
 [Anna-senpai](https://hackforums.net/showthread.php?tid=5420472)
 
+##Notice
+
+Please don't play in your office and use controlled environment. Study responsibly.
+
+This is real automation of hacking and attack.
+
+Continue study to secure whatever.
+
 ## Disclaimer
 
 This repository is for academic purposes, the use of this software is your
