@@ -25,7 +25,7 @@ Continue study to secure whatever.
 
 ## Architecture
 
-# Configuring CNC
+### Configuring CNC
 
     apt-get install mysql-server mysql-client
 
