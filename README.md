@@ -36,7 +36,7 @@ This will create database for you. To add your user,
 
     INSERT INTO users VALUES (NULL, 'anna-senpai', 'myawesomepassword', 0, 0, 0, 0, -1, 1, 30, '');
 
-Now, go into file [`./mirai/cnc/main.go`](/cnc/main.go)
+Now, go into file [`cnc/main.go`](cnc/main.go)
 
 Edit these values
 
@@ -47,7 +47,7 @@ Edit these values
 
 To the information for the mysql server you just installed
 
-//Install Go
+#####Install Go
 
 sudo add-apt-repository ppa:ubuntu-lxc/lxd-stable
 
@@ -55,7 +55,7 @@ sudo apt-get update
 
 sudo apt-get install golang
 
-//put this to ~/.bashrc after tools chain and golang is installed.
+####put this to ~/.bashrc after tools chain and golang is installed.
 
 export PATH=$PATH:/etc/xcompile/armv4l/bin
 
