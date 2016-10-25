@@ -25,6 +25,10 @@ This is real automation of hacking and attack.
 
 Continue study to secure whatever.
 
+## Architecture
+
+![alt tag](https://github.com/tinwinaung/Mirai-Source-Code/raw/master/architecture.png)
+
 ## Disclaimer
 
 This repository is for academic purposes, the use of this software is your
